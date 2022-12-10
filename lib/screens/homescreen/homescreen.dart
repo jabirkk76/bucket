@@ -1,4 +1,4 @@
-// ignore_for_file: sort_child_properties_last, avoid_unnecessary_containers, sized_box_for_whitespace, prefer_typing_uninitialized_variables
+// ignore_for_file: sort_child_properties_last, avoid_unnecessary_containers, sized_box_for_whitespace, prefer_typing_uninitialized_variables, prefer_const_declarations
 
 import 'dart:async';
 
@@ -579,71 +579,6 @@ class _HomescreenState extends State<Homescreen> {
                   )),
               const Divider(
                 thickness: 3,
-              ),
-              const Padding(
-                padding: EdgeInsets.only(top: 15, right: 220),
-                child: Text(
-                  ' Products For You',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-              const Divider(
-                thickness: 1,
-              ),
-              IntrinsicHeight(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    const Icon(Icons.sort_rounded),
-                    const Text(
-                      'Sort',
-                      style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-                    ),
-                    Container(
-                      height: 35,
-                      child: const VerticalDivider(
-                        thickness: 1,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const Text(
-                      'Category',
-                      style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-                    ),
-                    const Icon(Icons.arrow_drop_down),
-                    Container(
-                      height: 35,
-                      child: const VerticalDivider(
-                        thickness: 1,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const Text(
-                      'Age',
-                      style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-                    ),
-                    const Icon(Icons.arrow_drop_down),
-                    Container(
-                      height: 35,
-                      child: const VerticalDivider(
-                        thickness: 1,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const Icon(Icons.filter_tilt_shift_sharp),
-                    const Text(
-                      'Filter',
-                      style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-                    ),
-                  ],
-                ),
               ),
               const Divider(
                 thickness: 1,

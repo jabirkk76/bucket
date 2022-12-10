@@ -421,21 +421,21 @@ class _AccountState extends State<Account> {
                 thickness: 6,
                 color: Color.fromARGB(255, 240, 239, 239),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
-              Text(
+              const Text(
                 'bucket',
                 style: TextStyle(
                     fontSize: 24,
                     color: Color.fromARGB(255, 238, 22, 6),
                     fontWeight: FontWeight.bold),
               ),
-              Text(
+              const Text(
                 'version: 13.8.1(430)',
                 style: TextStyle(color: Colors.grey, fontSize: 13),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               )
             ],

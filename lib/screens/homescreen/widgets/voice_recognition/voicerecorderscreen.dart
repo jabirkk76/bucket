@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print, sized_box_for_whitespace, library_private_types_in_public_api, unused_element
+
 import 'package:bucket/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_speech/flutter_speech.dart';
@@ -51,7 +53,7 @@ class _VoiceSearchingDemoState extends State<VoiceSearchingDemo> {
                 radius: 60,
                 child: TextButton(
                     onPressed: onPressed,
-                    child: Icon(
+                    child: const Icon(
                       Icons.mic,
                       color: Colors.white,
                     ))),
@@ -113,7 +115,7 @@ class _VoiceSearchingDemoState extends State<VoiceSearchingDemo> {
                         color: Colors.grey.shade200,
                         child: TextField(
                           controller: controller,
-                          decoration: InputDecoration(
+                          decoration: const InputDecoration(
                               prefixIcon: Icon(Icons.search),
                               border: OutlineInputBorder()),
                         ))),
@@ -126,10 +128,10 @@ class _VoiceSearchingDemoState extends State<VoiceSearchingDemo> {
                       ? 'Listening...'
                       : 'Listen (${selectedLang.code})',
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
-                Center(
+                const Center(
                   child: Text(
                     'Try Saying Something',
                     style: TextStyle(fontSize: 22),
