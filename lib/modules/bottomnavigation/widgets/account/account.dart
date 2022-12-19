@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:bucket/screens/signup_verify/countrry.dart';
+import 'package:bucket/modules/signup_verify/countrry.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

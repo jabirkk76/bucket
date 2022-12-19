@@ -1,6 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:bucket/screens/bottomnavigation/bottomnavigation.dart';
+import 'package:bucket/modules/bottomnavigation/bottomnavigation.dart';
 import 'package:flutter/material.dart';
 
 class Splashscreen extends StatefulWidget {

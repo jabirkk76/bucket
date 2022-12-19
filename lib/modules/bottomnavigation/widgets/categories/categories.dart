@@ -1,6 +1,6 @@
 // ignore_for_file: non_constant_identifier_names, must_be_immutable
 
-import 'package:bucket/screens/bottomnavigation/widgets/categories/widget/sarees.dart';
+import 'package:bucket/modules/bottomnavigation/widgets/categories/widget/sarees.dart';
 import 'package:flutter/material.dart';
 
 class Categories extends StatelessWidget {
